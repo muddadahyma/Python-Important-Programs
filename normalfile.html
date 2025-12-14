@@ -1,0 +1,279 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+            //increment operator:++(increment the value of variable by 1)
+            a=10
+            ++a;//pre increment
+            console.log(a);//11
+            result=(++a)+100
+            console.log(result)
+            a++;//post increment a=13
+            /*when we are doing any operation with increment pre-increment 
+            makes first increment,then operation post-increment makes first
+            operation,then increment*/
+            result=(a++)+100
+            console.log(result)//113
+            console.log(a)//14
+
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+            //decrement operator:--(decrement the value of variable by 1)
+            a=10
+            --a;//pre decrement
+            console.log(a);//9
+            result=(--a)+100
+            console.log(result)//108
+            a++;//post decrement a=13
+            /*when we are doing any operation with decrement pre-decrement 
+            makes first decrement,then operation post-decrement makes first
+            operation,then decrement*/
+            result=(a--)+100
+            console.log(result)//107
+            console.log(a)//6
+
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+           a=10
+           b=20
+           result=(a>b)?a:b//a if a>b else b
+           console.log(result)
+           result=(a<b)?a:b//a if a<b else b
+           console.log(result)
+
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+           //conditional statements
+           var a=10,b=20
+           //if-else statements
+           if(a>b)
+           {
+            console.log("a>b");
+           }
+           else
+           {
+            console.log("a<b");
+           }
+           c=30;
+           //else-if ladder
+           if(a>b && a>c)
+           {
+            console.log("a is maximum")
+           }
+           elif(a<b && b<c)
+           {
+            console.log("b is maximum")
+           }
+           else
+           {
+
+
+           }
+
+           
+           
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+           //conditional statements
+           choice=parseInt(prompt("choice:"))
+           switch(choice)
+           {
+            case 1:console.log("case-1");break
+            case 2:console.log("case-2");break
+            case 3:console.log("case-3");break
+            case 4:console.log("case-4");break
+            case 5:console.log("case-5");break
+            default:console.log("invalid choice")
+
+           }
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+           //while loop first  condition checks after logic execute
+           a=1
+           while(a<=10)
+           {
+            console.log(a)
+            a++;
+           }
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+           //do-while loop first logic execute after condition checks
+           a=1
+          do
+           {
+            console.log(a)
+            a++;
+           }while(a<=10);
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+           //for loop
+           for(var i=1;i<=10;i++)
+           {
+            console.log(i)
+           }
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+           //function
+           function display()
+           {
+            console.log("this is display")
+           }
+           //call the function
+           display()
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+           //function aruguments
+           function display(a,b)
+           {
+            console.log("this is display")
+            console.log(a);
+            console.log(b);
+           }
+           //call the function
+           display(10,20)
+
+
+           //values in aruguments
+           function display2(a=100,b=100)
+           {
+            console.log("this is display2")
+            console.log(a);
+            console.log(b);
+           }
+           //call the function
+           display2()
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+           //function return
+           function display(a,b)
+           {
+            console.log("this is display")
+            console.log(a);
+            console.log(b);
+            return a+b;
+
+           }
+           //call the function
+           result=display(10,20)
+           console.log(result);
+        </script>
+        
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+            // arrow function
+            result=()=>console.log("this is arrow function in js")
+            result()
+            result=(a,b)=>{
+                console.log("this is arrow function in js")
+                console.log(a);
+                console.log(b);
+                
+        }
+         result(10,20)
+         
+        </script>
+        
+    </body>
+</html>
+
+//7-11-fri
+
